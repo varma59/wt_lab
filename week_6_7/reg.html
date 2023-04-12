@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Myntra Registration Page</title>
+    <link rel="stylesheet" href="reg.css">
+  </head>
+  <body>
+
+    <body bgcolor="#FFB6C1">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="cloth.html">Clothes Catalog</a></li>
+          <li><a href="shop.html">Shopping Cart</a></li>
+          <li><a href="payment.html">Payment</a></li>
+        </ul>
+      </nav>
+    </header>
+    <aside>
+      <nav>
+        <ul>
+          <li><a href="home.html">Login</a></li>
+          <li><a href="reg.html">User Profile</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+    <center>
+    <div id="logo"> 
+        <a href="home.html"><img src="https://constant.myntassets.com/web/assets/img/icon.5d108c858a0db793700f0be5d3ad1e120a01a500_2021.png"/></a>
+    </div>
+      <h1>Registration Form</h1>
+      <form name="myForm" onsubmit="return validateForm()" method="post" action="cloth.html">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password">
+        <input type="submit" value="Submit">
+      </form>
+    </center>
+    </main>
+    <script src="scriptreg.js"></script>
+  </body>
+</html>

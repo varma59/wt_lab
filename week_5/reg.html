@@ -1,0 +1,59 @@
+<html>
+<head>
+  <script>
+    function validateForm() {
+      var firstName = document.forms["registerForm"]["firstName"].value;
+      var lastName = document.forms["registerForm"]["lastName"].value;
+      var address = document.forms["registerForm"]["address"].value;
+      var email = document.forms["registerForm"]["email"].value;
+      var password = document.forms["registerForm"]["password"].value;
+      var phone = document.forms["registerForm"]["phone"].value;
+
+
+      if (!firstName.match(/^[a-zA-Z]+$/)) {
+        alert("First name should only contain alphabets");
+        return false;
+      }
+      if (firstName.length < 10) {
+        alert("First name should have a length of at least 6 characters");
+        return false;
+      }
+
+      if (password.length < 6) {
+        alert("Password should have a length of at least 6 characters");
+        return false;
+      }
+
+      if (!email.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
+        alert("Email is not valid");
+        return false;
+      }
+
+      if (!phone.match(/^\d{10}$/)) {
+        alert("Phone number should contain 10 digits only");
+        return false;
+      }
+
+      if (lastName == "" || address == "") {
+        alert("Last name and address should not be empty");
+        return false;
+      }
+
+      return true;
+    }
+  </script>
+</head>
+<body>
+<center>
+  <form name="registerForm" onsubmit="return validateForm()" action="final.html" style="display: block;">
+    <label> firstname: <input type="text" name="firstName" placeholder="First Name" style="display: block;"></label>
+    <label> lastName: <input type="text" name="lastName" placeholder="Last Name" style="display: block;" ></label>
+    <label>Address: <input type="text" name="address" placeholder="Address" style="display: block;"></label>
+    <label> emailid: <input type="email" name="email" placeholder="Email" style="display: block;"></label>
+    <label> password: <input type="password" name="password" placeholder="Password" style="display: block;"></label>
+    <label> phone: <input type="text" name="phone" placeholder="Phone" style="display: block;"> </label>
+    <input type="submit" value="Submit" >
+  </form>
+</center>
+</body>
+</html>

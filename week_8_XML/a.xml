@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8">
+<?xml-stylesheet type="text/xsl" href="a.xsl"?>
+<!DOCTYPE County SYSTEM "a.dtd">
+<County>
+    <Details>
+        <CONT>India</CONT>
+        <COUNTRY>Asia</COUNTRY>
+    </Details>
+</County>

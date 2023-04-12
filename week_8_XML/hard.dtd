@@ -1,0 +1,7 @@
+<!ELEMENT hardware (item)+>
+<!ELEMENT item (brand,storage,processer,Card,price)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT storage (#PCDATA)>
+<!ELEMENT processer (#PCDATA)>
+<!ELEMENT card (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

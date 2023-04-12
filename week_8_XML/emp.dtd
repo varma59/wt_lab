@@ -1,0 +1,7 @@
+<!ELEMENT empl (Details)+>
+<!ELEMENT Details (Name,Dept,mail,Phno,Marks)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Dept (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+<!ELEMENT Phno (#PCDATA)>
+<!ELEMENT Marks (#PCDATA)>

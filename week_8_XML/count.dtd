@@ -1,0 +1,4 @@
+<!ELEMENT County (Details)+>
+<!ELEMENT Details (name,Continent)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT Continent (#PCDATA)>

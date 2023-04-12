@@ -1,0 +1,22 @@
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .dresses-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .dress {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .dress img {
+    max-width: 100%;
+  }
+  

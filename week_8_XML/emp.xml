@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="emp.xsl"?>
+<!DOCTYPE empl SYSTEM "emp.dtd">
+<empl>
+    <Details>
+        <Name>AbhishekvarmaGVS</Name>
+        <Dept>CSE</Dept>
+        <mail>Varma59@varma59.dev</mail>
+        <Phno>9515970836</Phno>
+        <Marks>99</Marks>
+    </Details>
+</empl>

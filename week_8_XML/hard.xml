@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="hard.xsl"?>
+<!DOCTYPE hardware SYSTEM "hard.dtd">
+<hardware>
+    <item>
+        <brand>Lenovo</brand>
+        <storage>1Tb</storage>
+        <processer>i10</processer>
+        <card>yes</card>
+        <price>1200000</price>
+    </item>
+    <item>
+        <brand>Dell</brand>
+        <storage>Tb</storage>
+        <processer>i5</processer>
+        <card>yes</card>
+        <price>1500000</price>
+    </item>
+    <item>
+        <brand>Microsoft</brand>
+        <storage>1Tb</storage>
+        <processer>i7</processer>
+        <card>no</card>
+        <price>1500000</price>
+    </item>
+    <item>
+        <brand>Asus</brand>
+        <storage>512gb</storage>
+        <processer>i8</processer>
+        <card>no</card>
+        <price>1550000</price>
+    </item>
+    <item>
+        <brand>APPLE</brand>
+        <storage>512Gb</storage>
+        <processer>M1</processer>
+        <card>Yes</card>
+        <price>800000</price>
+    </item>
+    <item>
+        <brand>Nvidia</brand>
+        <storage>512Gb</storage>
+        <processer>I12</processer>
+        <card>Yes</card>
+        <price>800000</price>
+    </item>
+</hardware>

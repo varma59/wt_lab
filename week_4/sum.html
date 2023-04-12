@@ -1,0 +1,21 @@
+<html>
+<head>
+<script>
+function findSum() {
+    var n = prompt("Enter the number of values you want to sum:");
+    var numArr = [];
+    for (var i = 0; i < n; i++) {
+        numArr[i] = prompt("Enter number " + (i+1) + ":");
+    }
+    var sum = 0;
+    for (var i = 0; i < numArr.length; i++) {
+        sum += parseInt(numArr[i]);
+    }
+    alert("The sum of the numbers is: " + sum);
+}
+</script>
+</head>
+<body>
+<input type="button" value="Find Sum" onclick="findSum()">
+</body>
+</html>
